@@ -22,7 +22,7 @@ public class User extends BaseEntity {
     private String firstName;
     private String lastName;
     private String phone;
-    private boolean enable;
+    private boolean enabled;
 
     @ManyToOne
     @JoinColumn(name = "role_id")
